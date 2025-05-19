@@ -1,1 +1,144 @@
+*{margin:0;
+  padding:0; 
+  
+}
+.nunito{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0;
+  }  
+body{
+    background-color:whitesmoke;
+    margin: .1rem  ;    
+}
+img{
+    height: 22rem;
+    width: 80%;
+    border: 0.rem solid black;  
+}
+label{
+    color:red;
+    font-size: 1.2rem;
+}
+h2{
+    color:blueviolet;    
+}
+#encabezado{
+    margin:auto;
+    text-align: center;;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin:auto;
+}
+nav ul{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;   
+    width:80%;
+    margin: auto;
+    background-color: orangered;
+    font-size: 2rem; 
+    font-weight: bolder;       
+    list-style-type:none;   
+    }
+.contenedor-texto-p1{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    width: 90%;
+    margin: auto;
+    border: 0rem solid black;
+}    
+#section-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    border: 0rem solid white;
+    margin: .5rem;    
+}
+.espaciado-div{
+    width: 30%;
+    background-color:azure;
+}
+.tabla{
+    background-color:rgba(255,99,71,0.5);
+    color:blueviolet;
+    border-width:0.1em;
+    border-color: red;
+    border-style: double;
+    margin: auto;
+    width:auto;
+}
+footer {
+    background-color: blueviolet;
+    border: dodgerblue;
+    width: auto; 
+
+    text-align:right;
+}
+main {
+    text-align: center;
+    margin: auto;
+    padding: .0rem;
+    width: 80%;
+}
+#iconos {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .5rem;
+    margin: auto;    
+}
+.section-lo-mejor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border:.0rem solid red;
+}
+ .contenedor-texto-p1 p{
+    text-indent:3%;
+    align-self:self-start ;
+    padding:auto;
+    margin: auto;
+}
+.texto-justificado{
+    text-align:justify;
+    padding: 0rem;
+    width: 100%;
+}
+#section-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:nowrap;
+    margin: .5rem;
+}
+#section-2 >h2{
+    justify-content:center;
+    align-items : center;
+    width: 100%;
+    height: 10%;     
+    margin: 1%;         
+}
+
+#section-2 .contenedor-text2 p{
+    width: 100%;
+    height: 80%;
+     text-indent:3%;
+     text-align: justify;
+}
+.musica-gratis{
+    border:.2rem solid white;
+}
+
+
 
